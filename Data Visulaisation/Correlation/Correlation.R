@@ -1,0 +1,13 @@
+install.packages("xlsx")
+library("xlsx")
+dataset=read.xlsx("Correlation.xlsx",sheetIndex=2)
+attach(dataset)
+head(dataset)
+tail(dataset)
+cor.test(Attitude,Duration)
+cor(dataset)
+plot(Attitude,Duration,col="blue")
+
+install.packages("corrgram")
+library("corrgram")
+corrgram(dataset)
