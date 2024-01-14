@@ -1,0 +1,7 @@
+V=c(5,4,25,96,44)
+plot(V,type="l",col="red",main="line graph")
+plot(V,type="p",col="red",main="line graph")
+plot(V,type="o",col="red",main="line graph")
+plot(V,type="b",col="red",main="line graph")
+plot(V,type="s",col="red",main="line graph")
+plot(V,type="h",col="red",main="line graph")
